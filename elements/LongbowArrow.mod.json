@@ -1,0 +1,38 @@
+{
+  "_fv": 6,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "longarrow_bolt",
+    "customModelName": "Normal",
+    "name": "Longbow Arrow",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 25,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.5,
+    "bulletDamage": 8.0,
+    "bulletKnockback": 6,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.ANDESITE_WALL"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "hardened_leather.png",
+    "onBulletHitsEntity": {
+      "name": "LongbowArrowBulletHitsLivingEntity"
+    }
+  }
+}
